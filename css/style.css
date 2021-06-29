@@ -55,6 +55,10 @@ body{
     justify-content: space-between;
 }
 
+.informacoes_usuario_embaixo a{
+    margin-right: 10px;
+}
+
 .nome_de_usuario{
     font-family: Roboto;
     font-size: 16px;
@@ -84,6 +88,7 @@ hr{
 .post_perfil{
     display: flex;
     background-color: #FFFFFF;
+    margin-bottom: 53px;
 }
 
 .conteudo_post{
@@ -95,10 +100,12 @@ hr{
 .curtidas_comentarios{
     flex-direction: column;
     margin-bottom: 23px;
+    font-size: 13px;
 }
 
 .curtidas_comentarios span{
     margin-bottom: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .caixa_comentarios{
@@ -139,7 +146,8 @@ hr{
     border: none;
     color: #909090;
     font-size: 13px;
-    height: 25px;
+    height: 21px;
+    width: 187px;
 }
 
 .descricao_usuario_post{
